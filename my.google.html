@@ -50,10 +50,51 @@
         text-align: center;
         margin :0px auto
     }
-   
+    header{
+        /* background-color: salmon; */
+        padding: 38px;
+    }
+    header nav{
+        float: right;
+        /* background-color: aquamarine; */
+        width: fit-content;
+    }
+  
+   /* nav{
+    /* background-color: aqua; 
+   } */
+   header nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 38px;
+   }
+   header nav div.profile{
+        width: 30px;
+        height: 30px;
+        background: blueviolet;
+        border-radius: 100px;
+        float: right;
+        
+    }
 </style>
 <body>
-    <h1><span style="color: aquamarine;">G</span>oogle</h1>
+   
+    <header>
+        <nav>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#" class="icon">🙄</a>
+            <a href="#" class="dot">👌</a>
+            <a href="#" class="icon_picture">
+                <div class="profile"></div>
+            </a>
+            
+        </nav>
+        <section style="clear: right;"></section>
+    </header> 
+    
+    <h1><span style="color: rgb(75, 144, 235);">G</span><span style="color: red;">o</span><span style="color: rgba(245, 160, 14, 0.915);">o</span><span style="color: rgb(75, 144, 235);">g</span><span style="color: rgb(2, 169, 4);">l</span><span style="color: red;">e</span></h1>
     <form action="https://google.com/search/"target="_blank">
         <div>
             <input type="text" name="q" id=""placeholder = "search here">
