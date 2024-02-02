@@ -70,12 +70,61 @@
     margin-left: 38px;
    }
    header nav div.profile{
-        width: 30px;
-        height: 30px;
-        background: blueviolet;
-        border-radius: 100px;
         float: right;
+        height: 40px;
+        width: 40px;
+        border-radius: 70%;
+        background-color: aqua;
+        background-image: url(python.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
         
+    }
+    @media screen and (max-width : 780px) {
+    h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    /* margin-left: 230px ; */
+   
+    margin-top: 200px;}
+    
+    header nav{
+        float: right ;
+        /* background-color: aquamarine; */
+        width: fit-content;
+    }
+    header nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+   }
+   form input[type=text]{
+    border: none;
+    outline: none;
+    width: 450px;
+   
+    }
+    
+    }
+    @media screen and (max-width : 600px) {
+        form input[type=text]{
+    border: none;
+    outline: none;
+    width: 60%;
+   }
+        
+    form{
+        width: 80%;
+        text-align: center;
+        margin :0px auto
+    }
+    header nav a{
+    font-size: 80%;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;}
     }
 </style>
 <body>
